@@ -33,7 +33,7 @@ Python 3.x
 requests library
 
 Contributing
-Feel free to contribute to this project by submitting pull requests or suggesting improvements.
+Feel free to contribute to this project by submitting pull requests or suggesting improvements !
 
 Disclaimer
 This project is provided as is without any warranty. Use it at your own risk.
