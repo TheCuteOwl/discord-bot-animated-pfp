@@ -2,6 +2,7 @@ Discord Bot Profile Picture Changer
 This Python script allows you to change a Discord bot's profile picture to a GIF using the Discord API.
 
 How to Use
+
 Clone the Repository:
 
 ```bash
@@ -13,7 +14,7 @@ Install Dependencies:
 Navigate to the project directory and install the required dependencies using pip:
 
 ```bash
-cd discord-bot-profile-picture-changer
+cd discord-bot-animated-pfp
 pip install -r requirements.txt
 
 ```
