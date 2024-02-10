@@ -3,7 +3,7 @@ This Python script allows you to change a Discord bot's profile picture to a GIF
 
 How to Use
 
-What you will need :
+## What you will need :
 
 - A discord bot token
 - .GIF file for the profile picture
