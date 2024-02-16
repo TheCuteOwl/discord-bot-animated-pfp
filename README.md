@@ -15,7 +15,7 @@ git clone https://github.com/TheCuteOwl/discord-bot-animated-pfp.git
 ```
 
 Install Dependencies:
-
+ 
 Navigate to the project directory and install the required dependencies using pip:
 
 ```bash
