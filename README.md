@@ -1,3 +1,5 @@
+5 Stars ! Thanks
+
 Discord Bot Profile Picture Changer
 This Python script allows you to change a Discord bot's profile picture to a GIF using the Discord API.
 
