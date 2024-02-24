@@ -3,7 +3,10 @@ import base64
 
 def change_profile_picture(token, image_path):
     try:
+        # Remove quotes and leading/trailing whitespaces from the image path
         image_path = image_path.replace('"',"")
+        image_path = image_path.replace("'","")
+        image_path = image_path.strip()
         with open(image_path, "rb") as image_file:
             encoded_image = base64.b64encode(image_file.read()).decode('utf-8')
         headers = {
@@ -16,6 +19,10 @@ def change_profile_picture(token, image_path):
         }
         url = "https://discord.com/api/v9/users/@me"
         response = requests.patch(url, headers=headers, json=data)
+        if response.status_code != 200:
+            print(f"An error occurred: {response.json()}")
+            return
+
         print('Success! Profile Picture Added!')
     except Exception as e:
         print(f"An error occurred: {e}")
